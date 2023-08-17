@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1692145924 source:c:\users\lenovo\desktop\utn 2023\2° cuatrimestre\laboratorio ii\proyecto gastronomico\main.cpp
+	"funciones.h"
+	<cstring>
+	<iostream>
+
+1692138833 c:\users\lenovo\desktop\utn 2023\2° cuatrimestre\laboratorio ii\proyecto gastronomico\funciones.h
+
+1692145548 source:c:\users\lenovo\desktop\utn 2023\2° cuatrimestre\laboratorio ii\proyecto gastronomico\funciones.cpp
+	"funciones.h"
+	<iostream>
+
