@@ -2,8 +2,6 @@
 #include <iostream>
 using namespace std;
 
-//Lo que hace la funcion y los parametros que recibe
-
 int menuPrincipal(){
     int opcion;
     do{
@@ -22,14 +20,14 @@ int menuPrincipal(){
         }
         else{
             system("cls");
-            cout << "Opcion invalida" << endl;
+            cout << "Opcion invalida. Por favor, seleccione una opcion correcta." << endl;
             cout << endl << "---------------------------" << endl << endl;
             }
 
         system("pause");
         system("cls");
 
-    }while(opcion != 0);
+    } while(opcion != 0);
 }
 
 
