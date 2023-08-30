@@ -1,0 +1,64 @@
+//Cliente
+
+disminucion de tiempos de espera
+personalizar pedido de forma practica
+disminucion de errores
+formas de pago
+
+
+
+//Restaurant
+
+control de stock
+menu de informes (plato mas vendido, cantidad de ventas por dia, importes, etc etc)
+comparaciones con meses anteriores
+cantidad de ventas segun forma de pago
+mostrar mensajes al cliente segun stock disponible
+cola de pedidos
+
+
+// Clases
+
+Producto
+	codigo
+	nombre
+	stock
+	precio
+
+Entrada: Producto
+	Cuantos comen?
+
+Bebidas: Producto
+	Tamanio
+
+Plato principal: Producto
+		Cuantos comen?
+
+Postre: Producto
+		Cuantos comen?
+
+Mozo
+	nombre y apellido
+	legajo
+	turno
+	Cantidad recaudada
+	
+	
+Pedido
+	numero de orden
+	productos elegidos
+	precio total
+	forma de pago
+	numero de mesa
+	nombre del cliente
+	MOZO
+	FECHA
+	HORA
+	Pedidos a domicilio? SI ES TRUE, mozo y mesa por omision (null o 000)
+
+Mesa?
+	Reservada?
+	Disponible?
+	Atendida por?
+	Si hay que juntar 3 mesas de 2 para un grupo de 6, que figure como atendida
+	por el mismo mozo.
