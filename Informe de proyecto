@@ -1,0 +1,18 @@
+INTRODUCCIÓN
+
+El sistema a desarrollar permitirá gestionar y optimizar los procesos dentro de un establecimiento gastronómico. Se basa en una interfaz gráfica en la que el mozo podrá seleccionar diferentes productos para generar comandas.
+
+DESCRIPCIÓN DETALLADA DEL SISTEMA	
+
+El objetivo principal es la gestión de las ventas, stock y recaudación, como así también la evaluación y optimización del rendimiento del personal y la calidad de servicio. Sus productos se categorizan en Entrada, Plato principal, Postres y Bebidas. A la hora de generar una comanda (por parte del mozo) el sistema desplegará submenús de productos según la categoría a la que pertenezcan, ordenados de menor a mayor precio. A medida que se agreguen productos estos serán listados en pantalla con el fin evitar equivocaciones.
+
+El pedido detallará los productos (ordenados por categoría) , la mesa, nombre de cliente, precio total, fecha, hora y mozo.
+
+[Informes]
+exportación  y visualización en formato de PDF
+[comprobantes]
+
+
+
+ 
+
