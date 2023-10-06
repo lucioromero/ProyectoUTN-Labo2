@@ -13,11 +13,6 @@ void Pedido::setPrecioTotal(float precioTotal){
     _precioTotal = precioTotal;
 }
 
-void Pedido::setNombreCliente(std::string nombreCliente){
-    _nombreCliente = nombreCliente;
-}
-
 int Pedido::getOrden() {return _orden;}
 int Pedido::getMesa() {return _mesa;}
 float Pedido::getPrecioTotal() {return _precioTotal;}
-std::string Pedido::getNombreCliente() {return _nombreCliente;}

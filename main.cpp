@@ -3,13 +3,13 @@
 #include "Pedido.h"
 #include <cstring>
 #include <iostream>
+
 using namespace std;
 
-int main()
-{
+int main(){
     int opcion;
-    opcion = menuPrincipal();
-    carta(opcion);
-
+    sistema(opcion);
+    
     return 0;
 }
+
